@@ -1,13 +1,13 @@
-### Python Ñ§Ï°°¸Àý
+### Python å­¦ä¹ æ¡ˆä¾‹
 
 Python3 + Win10
 
-#### 1.Ä¿Â¼½éÉÜ
+#### 1.ç›®å½•ä»‹ç»
 
-| Ãû³Æ | ½éÉÜ |
+| åç§° | ä»‹ç» |
 | --- | --- |
-| example | »ù´¡°¸Àý |
-| lxfbasic | ÁÎÑ©·å»ù´¡¿Î³Ì |
-| spider | ÅÀ³æ |
-| unicorn | Ä£ÄâARMµÈÒýÇæÖ´ÐÐSOµÈÎÄ¼þ |
-| frida | °²×¿Hook¼¼Êõ |
+| example | åŸºç¡€æ¡ˆä¾‹ |
+| lxfbasic | å»–é›ªå³°åŸºç¡€è¯¾ç¨‹ |
+| spider | çˆ¬è™« |
+| unicorn | æ¨¡æ‹ŸARMç­‰å¼•æ“Žæ‰§è¡ŒSOç­‰æ–‡ä»¶ |
+| frida | å®‰å“HookæŠ€æœ¯ |
