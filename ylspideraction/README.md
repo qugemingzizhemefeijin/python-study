@@ -1,5 +1,20 @@
 ### Python3爬虫实战：数据清洗、数据分析与可视化 - 案例
 
+#### 安装模块
+```
+pip install xlwt
+pip install xlrd
+pip install python-docx
+pip install requests
+pip install lxml
+pip install parsel
+pip install w3lib
+pip install twisted
+pip install cryptography
+pip install pyOpenSSL
+pip install Scrapy
+```
+
 [当当购买地址](http://product.dangdang.com/27931341.html)
 
 第一篇  基础知识
