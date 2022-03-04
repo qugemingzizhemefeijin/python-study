@@ -2,6 +2,7 @@
 
 #### 安装模块
 ```
+pip install beautifulsoup4
 pip install xlwt
 pip install xlrd
 pip install python-docx
@@ -13,6 +14,13 @@ pip install twisted
 pip install cryptography
 pip install pyOpenSSL
 pip install Scrapy
+pip install selenium
+
+// 或者加入到requirement.txt
+pip install -r requirement.txt
+
+// 新建一个scrapy爬虫项目
+scrapy startproject tutoria (tutoria为爬虫名称)
 ```
 
 [当当购买地址](http://product.dangdang.com/27931341.html)
