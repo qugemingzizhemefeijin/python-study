@@ -31,6 +31,50 @@ scrapy startproject tutoria (tutoria为爬虫名称)
 scrapy crawl dahe (dahe为爬虫名称)
 ```
 
+#### 安装selenium支持的chromedriver
+```
+// 下载地址有两个
+http://chromedriver.storage.googleapis.com/index.html
+https://npm.taobao.org/mirrors/chromedriver/
+// 首先需要查看你的Chrome版本，在浏览器中输入
+chrome://version/
+// 获取版本后找到对应的目录
+// 我的下载地址是
+https://registry.npmmirror.com/-/binary/chromedriver/96.0.4664.45/chromedriver_win32.zip
+// 解压压缩包，找到chromedriver.exe复制到chrome的安装目录（其实也可以随便放一个文件夹）。复制chromedriver.exe文件的路径并加入到电脑的环境变量中去。
+```
+
+未配置环境也可以，例如：
+```
+from selenium import webdriver
+import time
+
+def main():
+    chrome_driver = 'C:\Program Files (x86)\Google\Chrome\Application\chromedriver.exe'  #chromedriver的文件位置
+    b = webdriver.Chrome(executable_path = chrome_driver)
+    b.get('https://www.google.com')
+    time.sleep(5)
+    b.quit()
+
+if __name__ == '__main__':
+    main()
+```
+
+已配置环境变量时，例如：
+```
+from selenium import webdriver
+import time
+
+def main():
+    b = webdriver.Chrome()
+    b.get('https://www.baidu.com')
+    time.sleep(5)
+    b.quit()
+
+if __name__ == '__main__':
+    main()
+```
+
 [当当购买地址](http://product.dangdang.com/27931341.html)
 
 第一篇  基础知识
