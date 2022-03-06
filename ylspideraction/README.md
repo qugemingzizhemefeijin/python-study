@@ -15,12 +15,20 @@ pip install cryptography
 pip install pyOpenSSL
 pip install Scrapy
 pip install selenium
+pip install pymongo
+pip install Pillow
 
 // 或者加入到requirement.txt
 pip install -r requirement.txt
+```
 
+#### scrapy使用
+```
 // 新建一个scrapy爬虫项目
 scrapy startproject tutoria (tutoria为爬虫名称)
+
+// 开启爬虫
+scrapy crawl dahe (dahe为爬虫名称)
 ```
 
 [当当购买地址](http://product.dangdang.com/27931341.html)
