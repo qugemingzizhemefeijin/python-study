@@ -17,6 +17,7 @@ pip install Scrapy
 pip install selenium
 pip install pymongo
 pip install Pillow
+pip install pymysql
 
 // 或者加入到requirement.txt
 pip install -r requirement.txt
