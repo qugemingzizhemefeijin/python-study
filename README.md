@@ -69,10 +69,11 @@ python -m pip install --upgrade pip -i https://pypi.douban.com/simple --user
 
 #### 1.目录介绍
 
-| 名称 | 介绍 |
-| --- | --- |
-| example | 基础案例 |
-| lxfbasic | 廖雪峰基础课程 |
-| spider | 爬虫 |
-| unicorn | 模拟ARM等引擎执行SO等文件 |
-| frida | 安卓Hook技术 |
+| 名称 | 介绍 | 备注 |
+| --- | --- | --- |
+| example | 基础案例 | - |
+| lxfbasic | 廖雪峰基础课程 | - |
+| spider | 爬虫 | - |
+| unicorn | 模拟ARM等引擎执行SO等文件 | - |
+| frida | 安卓Hook技术 | - |
+| ylspideraction | Python3爬虫实战 数据清洗、数据分析与可视化 | 这本书只有爬虫，基本没有啥数据分析，案例漏洞百出 |
