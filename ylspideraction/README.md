@@ -24,6 +24,8 @@ pip install redis
 pip install celery
 pip install msgpack
 pip install eventlet
+// websocket
+pip install websocket-client
 
 // 或者加入到requirement.txt
 pip install -r requirement.txt
