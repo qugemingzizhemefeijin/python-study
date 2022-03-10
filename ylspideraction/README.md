@@ -14,11 +14,16 @@ pip install twisted
 pip install cryptography
 pip install pyOpenSSL
 pip install Scrapy
+pip install scrapy-redis
 pip install selenium
 pip install pymongo
 pip install Pillow
 pip install pymysql
 pip install redis
+// celery 安装的包
+pip install celery
+pip install msgpack
+pip install eventlet
 
 // 或者加入到requirement.txt
 pip install -r requirement.txt
