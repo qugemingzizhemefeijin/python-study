@@ -26,6 +26,10 @@ pip install msgpack
 pip install eventlet
 // websocket
 pip install websocket-client
+// 验证码 tesseract-ocr
+pip install pytesseract
+pip install tesseract
+pip install pytesser3
 
 // 或者加入到requirement.txt
 pip install -r requirement.txt
@@ -82,6 +86,35 @@ def main():
 
 if __name__ == '__main__':
     main()
+```
+
+tesseract-ocr安装：
+```
+http://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-setup-3.05.00dev.exe
+
+
+(python2)安装完毕后打开目录 site-packages\pytesseract 下的文件 pytesseract.py
+找到 tesseract_cmd = 'tesseract' 修改成你安装地址
+
+tesseract_cmd = r'D:\Program Files (x86)\Tesseract-OCR\tesseract.exe'
+
+(python3)
+pip install pytesser3
+找到pytesser3下的 __init__.py 修改
+tesseract_exe_name = 'D:\\Program Files (x86)\\Tesseract-OCR\\tesseract.exe' 
+
+设置环境变量
+path = D:\Program Files (x86)\Tesseract-OCR
+TESSDATA_PREFIX = D:\Program Files (x86)\Tesseract-OCR\tessdata
+
+ 如果碰到GBK编码无法识别的问题，解决该问题的方法是util.py中的retrieve_text函数中的open函数添加一个encoding参数。
+
+
+def retrieve_text(scratch_text_name_root):
+    inf = open(scratch_text_name_root + '.txt', encoding='utf-8')
+    text = inf.read()
+    inf.close()
+    return text
 ```
 
 [当当购买地址](http://product.dangdang.com/27931341.html)
