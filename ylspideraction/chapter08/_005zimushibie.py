@@ -12,7 +12,7 @@ image = Image.open('img/hoke.png') # 载入图片
 # 将图片黑白花
 image = image.convert('L')
 
-# 先放大点，再二值化（Image.BILINEAR就可以二值化）
+# 先放大点
 image = image.resize((124, 64), Image.BILINEAR)
 
 # 识别图片
