@@ -30,6 +30,8 @@ pip install websocket-client
 pip install pytesseract
 pip install tesseract
 pip install pytesser3
+// 多线程
+pip install threadpool
 
 // 或者加入到requirement.txt
 pip install -r requirement.txt
