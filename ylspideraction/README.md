@@ -32,6 +32,14 @@ pip install tesseract
 pip install pytesser3
 // 多线程
 pip install threadpool
+// action
+pip install qqbot
+pip install pyecharts
+pip install echarts-countries-pypkg
+pip install echarts-china-provinces-pypkg
+pip install echarts-china-cities-pypkg
+pip install echarts-china-counties-pypkg
+pip install echarts-china-misc-pypkg
 
 // 或者加入到requirement.txt
 pip install -r requirement.txt
@@ -118,6 +126,19 @@ def retrieve_text(scratch_text_name_root):
     inf.close()
     return text
 ```
+
+#### pyecharts
+```
+pip install pyecharts
+pip install echarts-countries-pypkg
+pip install echarts-china-provinces-pypkg
+pip install echarts-china-cities-pypkg
+pip install echarts-china-counties-pypkg
+pip install echarts-china-misc-pypkg
+```
+
+[pyecharts官网地址](https://pyecharts.org/#/zh-cn/intro)  - [pyecharts示例地址](https://github.com/pyecharts/pyecharts-gallery)
+
 
 [当当购买地址](http://product.dangdang.com/27931341.html)
 
