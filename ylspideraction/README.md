@@ -40,6 +40,7 @@ pip install echarts-china-provinces-pypkg
 pip install echarts-china-cities-pypkg
 pip install echarts-china-counties-pypkg
 pip install echarts-china-misc-pypkg
+pip install numpy
 
 // 或者加入到requirement.txt
 pip install -r requirement.txt
