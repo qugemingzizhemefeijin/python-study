@@ -12,6 +12,8 @@ Pandas 广泛应用在学术、金融、统计学等各个数据分析领域。
 
 import pandas as pd
 import jieba
+from collections import Counter
+from pprint import pprint
 
 # 读取数据
 data = pd.read_csv('../meidi_jd.csv', encoding='gb18030')
@@ -58,3 +60,11 @@ g = corpus.groupby(['word']).agg({'cnt': 'count'}).sort_values('cnt', ascending=
 
 print(g.head(10))
 print('=============================')
+
+
+counter = Counter(words)
+
+# 打印前十高频词
+pprint(counter.most_common(10))
+print('=============================')
+
