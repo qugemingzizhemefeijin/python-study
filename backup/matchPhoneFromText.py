@@ -67,11 +67,11 @@ for line in lines:
 			wxs.add(result)
 
 #打印手机
-print "===============打印手机========="
+print("===============打印手机=========")
 for mobile in mobiles:
-	print mobile
+	print(mobile)
 
 #打印微信
-print "===============打印微信========="
+print("===============打印微信=========")
 for wx in wxs:
-	print wx
+	print(wx)
