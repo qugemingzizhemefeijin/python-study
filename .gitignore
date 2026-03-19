@@ -46,11 +46,7 @@ Thumbs.db
 
 #py
 __pycache__/
-<<<<<<< HEAD
 venv/
-=======
 
 # node
 node_modules/
-venv/
->>>>>>> b480cc2c860b63dc1c258e310b32b187e326f5fd
